@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1781895245776" clover="3.2.0">
+  <project timestamp="1781895245776" name="All files">
+    <metrics statements="1366" coveredstatements="1229" conditionals="432" coveredconditionals="369" methods="223" coveredmethods="204" elements="2021" coveredelements="1802" complexity="0" loc="1366" ncloc="1366" packages="6" files="59" classes="59"/>
+    <package name="api">
+      <metrics statements="45" coveredstatements="41" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="app.js" path="C:\Users\ACER\Desktop\Thrills\api\app.js">
+        <metrics statements="41" coveredstatements="38" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="50" count="87" type="stmt"/>
+        <line num="53" count="87" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="62" count="87" type="stmt"/>
+        <line num="64" count="247" type="stmt"/>
+        <line num="69" count="247" type="stmt"/>
+        <line num="74" count="87" type="stmt"/>
+        <line num="77" count="87" type="stmt"/>
+        <line num="83" count="87" type="stmt"/>
+        <line num="90" count="87" type="stmt"/>
+        <line num="102" count="87" type="stmt"/>
+        <line num="105" count="87" type="stmt"/>
+        <line num="118" count="87" type="stmt"/>
+        <line num="138" count="87" type="stmt"/>
+        <line num="141" count="87" type="stmt"/>
+        <line num="148" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="168" count="87" type="stmt"/>
+        <line num="171" count="87" type="stmt"/>
+        <line num="173" count="87" type="stmt"/>
+        <line num="175" count="87" type="stmt"/>
+        <line num="177" count="87" type="stmt"/>
+        <line num="179" count="87" type="stmt"/>
+        <line num="181" count="87" type="stmt"/>
+        <line num="186" count="87" type="stmt"/>
+        <line num="191" count="87" type="stmt"/>
+        <line num="196" count="87" type="stmt"/>
+        <line num="201" count="87" type="stmt"/>
+        <line num="206" count="87" type="stmt"/>
+        <line num="211" count="87" type="stmt"/>
+        <line num="216" count="87" type="stmt"/>
+        <line num="221" count="87" type="stmt"/>
+        <line num="226" count="87" type="stmt"/>
+        <line num="231" count="87" type="stmt"/>
+        <line num="236" count="87" type="stmt"/>
+        <line num="241" count="87" type="stmt"/>
+        <line num="246" count="87" type="stmt"/>
+        <line num="251" count="87" type="stmt"/>
+        <line num="256" count="87" type="stmt"/>
+        <line num="262" count="87" type="stmt"/>
+      </file>
+      <file name="connect.js" path="C:\Users\ACER\Desktop\Thrills\api\connect.js">
+        <metrics statements="4" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="api.controllers">
+      <metrics statements="1126" coveredstatements="1005" conditionals="403" coveredconditionals="348" methods="198" coveredmethods="187"/>
+      <file name="admin.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\admin.js">
+        <metrics statements="53" coveredstatements="53" conditionals="20" coveredconditionals="20" methods="12" coveredmethods="12"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="32" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="70" count="87" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="82" count="3" type="stmt"/>
+        <line num="88" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="91" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="126" count="87" type="stmt"/>
+        <line num="132" count="2" type="stmt"/>
+        <line num="157" count="2" type="stmt"/>
+        <line num="162" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="163" count="1" type="stmt"/>
+        <line num="165" count="1" type="stmt"/>
+        <line num="169" count="1" type="stmt"/>
+        <line num="179" count="87" type="stmt"/>
+        <line num="185" count="3" type="stmt"/>
+        <line num="201" count="3" type="stmt"/>
+        <line num="206" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="207" count="1" type="stmt"/>
+        <line num="209" count="2" type="stmt"/>
+        <line num="219" count="87" type="stmt"/>
+        <line num="226" count="3" type="stmt"/>
+        <line num="228" count="3" type="stmt"/>
+        <line num="234" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="235" count="1" type="stmt"/>
+        <line num="237" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="241" count="1" type="stmt"/>
+        <line num="250" count="1" type="stmt"/>
+        <line num="258" count="1" type="stmt"/>
+        <line num="262" count="1" type="stmt"/>
+        <line num="272" count="87" type="stmt"/>
+        <line num="279" count="3" type="stmt"/>
+        <line num="281" count="3" type="stmt"/>
+        <line num="287" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="288" count="1" type="stmt"/>
+        <line num="290" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="294" count="1" type="stmt"/>
+        <line num="303" count="1" type="stmt"/>
+        <line num="311" count="1" type="stmt"/>
+        <line num="315" count="1" type="stmt"/>
+      </file>
+      <file name="analytics.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\analytics.js">
+        <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <line num="4" count="87" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="46" count="87" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="72" count="3" type="stmt"/>
+        <line num="76" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="88" count="87" type="stmt"/>
+        <line num="94" count="3" type="stmt"/>
+        <line num="118" count="3" type="stmt"/>
+        <line num="122" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="125" count="2" type="stmt"/>
+      </file>
+      <file name="audit.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\audit.js">
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="7" count="87" type="stmt"/>
+        <line num="14" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="52" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+      </file>
+      <file name="auth.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\auth.js">
+        <metrics statements="85" coveredstatements="59" conditionals="32" coveredconditionals="21" methods="11" coveredmethods="10"/>
+        <line num="16" count="88" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="41" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="51" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="83" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="96" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="110" count="1" type="stmt"/>
+        <line num="125" count="88" type="stmt"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="141" count="1" type="stmt"/>
+        <line num="150" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="160" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="162" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="179" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="192" count="0" type="stmt"/>
+        <line num="203" count="1" type="stmt"/>
+        <line num="208" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="211" count="1" type="stmt"/>
+        <line num="214" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="217" count="0" type="stmt"/>
+        <line num="222" count="0" type="stmt"/>
+        <line num="241" count="0" type="stmt"/>
+        <line num="245" count="0" type="stmt"/>
+        <line num="254" count="1" type="stmt"/>
+        <line num="268" count="1" type="stmt"/>
+        <line num="272" count="1" type="stmt"/>
+        <line num="298" count="0" type="stmt"/>
+        <line num="312" count="0" type="stmt"/>
+        <line num="322" count="0" type="stmt"/>
+        <line num="338" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="340" count="0" type="stmt"/>
+        <line num="344" count="0" type="stmt"/>
+        <line num="352" count="0" type="stmt"/>
+        <line num="354" count="0" type="stmt"/>
+        <line num="358" count="0" type="stmt"/>
+        <line num="365" count="0" type="stmt"/>
+        <line num="398" count="88" type="stmt"/>
+        <line num="407" count="4" type="stmt"/>
+        <line num="410" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="412" count="1" type="stmt"/>
+        <line num="416" count="1" type="stmt"/>
+        <line num="425" count="3" type="stmt"/>
+        <line num="437" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="438" count="0" type="stmt"/>
+        <line num="440" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="444" count="1" type="stmt"/>
+        <line num="614" count="2" type="stmt"/>
+        <line num="621" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="623" count="1" type="stmt"/>
+        <line num="627" count="1" type="stmt"/>
+        <line num="638" count="1" type="stmt"/>
+        <line num="648" count="1" type="stmt"/>
+        <line num="652" count="1" type="stmt"/>
+        <line num="675" count="1" type="stmt"/>
+        <line num="699" count="88" type="stmt"/>
+        <line num="705" count="1" type="stmt"/>
+        <line num="710" count="1" type="stmt"/>
+        <line num="712" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="714" count="0" type="stmt"/>
+        <line num="717" count="0" type="stmt"/>
+        <line num="722" count="0" type="stmt"/>
+        <line num="731" count="0" type="stmt"/>
+        <line num="747" count="1" type="stmt"/>
+        <line num="749" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="751" count="0" type="stmt"/>
+        <line num="762" count="1" type="stmt"/>
+        <line num="791" count="88" type="stmt"/>
+        <line num="795" count="1" type="stmt"/>
+      </file>
+      <file name="block.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\block.js">
+        <metrics statements="27" coveredstatements="27" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="57" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="81" count="87" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="111" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="129" count="87" type="stmt"/>
+        <line num="136" count="3" type="stmt"/>
+        <line num="138" count="3" type="stmt"/>
+        <line num="158" count="3" type="stmt"/>
+        <line num="164" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="165" count="1" type="stmt"/>
+        <line num="167" count="2" type="stmt"/>
+      </file>
+      <file name="comment.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\comment.js">
+        <metrics statements="58" coveredstatements="48" conditionals="24" coveredconditionals="18" methods="8" coveredmethods="8"/>
+        <line num="21" count="87" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="67" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="96" count="87" type="stmt"/>
+        <line num="103" count="1" type="stmt"/>
+        <line num="106" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="124" count="1" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="141" count="1" type="stmt"/>
+        <line num="147" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="158" count="1" type="stmt"/>
+        <line num="164" count="1" type="stmt"/>
+        <line num="169" count="1" type="stmt"/>
+        <line num="177" count="1" type="stmt"/>
+        <line num="183" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="193" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="197" count="0" type="stmt"/>
+        <line num="201" count="0" type="stmt"/>
+        <line num="206" count="1" type="stmt"/>
+        <line num="209" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="215" count="1" type="stmt"/>
+        <line num="221" count="1" type="stmt"/>
+        <line num="228" count="1" type="stmt"/>
+        <line num="234" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="236" count="0" type="stmt"/>
+        <line num="240" count="0" type="stmt"/>
+        <line num="244" count="1" type="stmt"/>
+        <line num="252" count="1" type="stmt"/>
+        <line num="254" count="1" type="stmt"/>
+        <line num="267" count="1" type="stmt"/>
+        <line num="276" count="1" type="stmt"/>
+        <line num="288" count="87" type="stmt"/>
+        <line num="295" count="3" type="stmt"/>
+        <line num="298" count="3" type="stmt"/>
+        <line num="300" count="3" type="stmt"/>
+        <line num="307" count="3" type="stmt"/>
+        <line num="316" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="318" count="1" type="stmt"/>
+        <line num="322" count="1" type="stmt"/>
+        <line num="326" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="330" count="1" type="stmt"/>
+        <line num="334" count="1" type="stmt"/>
+        <line num="343" count="1" type="stmt"/>
+        <line num="347" count="1" type="stmt"/>
+      </file>
+      <file name="conversation.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\conversation.js">
+        <metrics statements="72" coveredstatements="68" conditionals="26" coveredconditionals="24" methods="12" coveredmethods="12"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="80" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="91" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="128" count="1" type="stmt"/>
+        <line num="134" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="144" count="1" type="stmt"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="154" count="1" type="stmt"/>
+        <line num="175" count="87" type="stmt"/>
+        <line num="182" count="4" type="stmt"/>
+        <line num="185" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="190" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="195" count="4" type="stmt"/>
+        <line num="197" count="4" type="stmt"/>
+        <line num="272" count="4" type="stmt"/>
+        <line num="283" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="285" count="1" type="stmt"/>
+        <line num="289" count="1" type="stmt"/>
+        <line num="293" count="3" type="stmt"/>
+        <line num="297" count="3" type="stmt"/>
+        <line num="319" count="87" type="stmt"/>
+        <line num="326" count="3" type="stmt"/>
+        <line num="328" count="3" type="stmt"/>
+        <line num="336" count="3" type="stmt"/>
+        <line num="342" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="344" count="1" type="stmt"/>
+        <line num="348" count="1" type="stmt"/>
+        <line num="352" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="356" count="1" type="stmt"/>
+        <line num="365" count="1" type="stmt"/>
+        <line num="369" count="1" type="stmt"/>
+        <line num="381" count="87" type="stmt"/>
+        <line num="388" count="4" type="stmt"/>
+        <line num="391" count="4" type="stmt"/>
+        <line num="393" count="4" type="stmt"/>
+        <line num="410" count="4" type="stmt"/>
+        <line num="420" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="422" count="1" type="stmt"/>
+        <line num="426" count="1" type="stmt"/>
+        <line num="430" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="434" count="1" type="stmt"/>
+        <line num="443" count="2" type="stmt"/>
+        <line num="449" count="2" type="stmt"/>
+        <line num="455" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="457" count="1" type="stmt"/>
+        <line num="461" count="1" type="stmt"/>
+        <line num="465" count="1" type="stmt"/>
+        <line num="469" count="1" type="stmt"/>
+        <line num="484" count="87" type="stmt"/>
+        <line num="491" count="2" type="stmt"/>
+        <line num="493" count="2" type="stmt"/>
+        <line num="509" count="2" type="stmt"/>
+        <line num="515" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="517" count="1" type="stmt"/>
+        <line num="521" count="1" type="stmt"/>
+        <line num="525" count="1" type="stmt"/>
+        <line num="529" count="1" type="stmt"/>
+      </file>
+      <file name="discover.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\discover.js">
+        <metrics statements="46" coveredstatements="15" conditionals="16" coveredconditionals="6" methods="9" coveredmethods="2"/>
+        <line num="15" count="87" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="81" count="4" type="stmt"/>
+        <line num="90" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="104" count="3" type="stmt"/>
+        <line num="127" count="87" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="137" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="142" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="202" count="0" type="stmt"/>
+        <line num="217" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="219" count="0" type="stmt"/>
+        <line num="223" count="0" type="stmt"/>
+        <line num="227" count="0" type="stmt"/>
+        <line num="231" count="0" type="stmt"/>
+        <line num="253" count="87" type="stmt"/>
+        <line num="259" count="0" type="stmt"/>
+        <line num="295" count="0" type="stmt"/>
+        <line num="300" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="302" count="0" type="stmt"/>
+        <line num="306" count="0" type="stmt"/>
+        <line num="310" count="0" type="stmt"/>
+        <line num="314" count="0" type="stmt"/>
+        <line num="324" count="87" type="stmt"/>
+        <line num="330" count="0" type="stmt"/>
+        <line num="352" count="0" type="stmt"/>
+        <line num="357" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="359" count="0" type="stmt"/>
+        <line num="363" count="0" type="stmt"/>
+        <line num="367" count="0" type="stmt"/>
+        <line num="371" count="0" type="stmt"/>
+        <line num="381" count="87" type="stmt"/>
+        <line num="388" count="0" type="stmt"/>
+        <line num="390" count="0" type="stmt"/>
+        <line num="392" count="0" type="stmt"/>
+        <line num="398" count="0" type="stmt"/>
+        <line num="402" count="0" type="stmt"/>
+        <line num="410" count="0" type="stmt"/>
+      </file>
+      <file name="hashtag.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\hashtag.js">
+        <metrics statements="40" coveredstatements="40" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="24" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="80" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="90" count="3" type="stmt"/>
+        <line num="94" count="3" type="stmt"/>
+        <line num="119" count="87" type="stmt"/>
+        <line num="126" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="130" count="4" type="stmt"/>
+        <line num="154" count="4" type="stmt"/>
+        <line num="160" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="162" count="1" type="stmt"/>
+        <line num="166" count="1" type="stmt"/>
+        <line num="170" count="3" type="stmt"/>
+        <line num="174" count="3" type="stmt"/>
+        <line num="184" count="87" type="stmt"/>
+        <line num="191" count="4" type="stmt"/>
+        <line num="193" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="195" count="1" type="stmt"/>
+        <line num="204" count="3" type="stmt"/>
+        <line num="231" count="3" type="stmt"/>
+        <line num="237" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="239" count="1" type="stmt"/>
+        <line num="243" count="1" type="stmt"/>
+        <line num="247" count="2" type="stmt"/>
+        <line num="251" count="2" type="stmt"/>
+        <line num="261" count="87" type="stmt"/>
+        <line num="268" count="2" type="stmt"/>
+        <line num="271" count="2" type="stmt"/>
+        <line num="273" count="2" type="stmt"/>
+        <line num="275" count="2" type="stmt"/>
+        <line num="281" count="1" type="stmt"/>
+        <line num="285" count="1" type="stmt"/>
+        <line num="293" count="1" type="stmt"/>
+      </file>
+      <file name="interests.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\interests.js">
+        <metrics statements="67" coveredstatements="67" conditionals="22" coveredconditionals="22" methods="13" coveredmethods="13"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="26" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="63" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="101" count="87" type="stmt"/>
+        <line num="108" count="3" type="stmt"/>
+        <line num="110" count="3" type="stmt"/>
+        <line num="120" count="3" type="stmt"/>
+        <line num="126" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="128" count="1" type="stmt"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="136" count="2" type="stmt"/>
+        <line num="140" count="2" type="stmt"/>
+        <line num="150" count="87" type="stmt"/>
+        <line num="157" count="5" type="stmt"/>
+        <line num="160" count="5" type="stmt"/>
+        <line num="162" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="166" count="1" type="stmt"/>
+        <line num="175" count="4" type="stmt"/>
+        <line num="181" count="4" type="stmt"/>
+        <line num="187" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="189" count="1" type="stmt"/>
+        <line num="193" count="1" type="stmt"/>
+        <line num="197" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="201" count="1" type="stmt"/>
+        <line num="205" count="1" type="stmt"/>
+        <line num="214" count="2" type="stmt"/>
+        <line num="215" count="3" type="stmt"/>
+        <line num="221" count="2" type="stmt"/>
+        <line num="230" count="2" type="stmt"/>
+        <line num="236" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="238" count="1" type="stmt"/>
+        <line num="242" count="1" type="stmt"/>
+        <line num="246" count="1" type="stmt"/>
+        <line num="252" count="1" type="stmt"/>
+        <line num="256" count="1" type="stmt"/>
+        <line num="271" count="87" type="stmt"/>
+        <line num="278" count="3" type="stmt"/>
+        <line num="281" count="3" type="stmt"/>
+        <line num="283" count="3" type="stmt"/>
+        <line num="291" count="3" type="stmt"/>
+        <line num="300" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="302" count="1" type="stmt"/>
+        <line num="306" count="1" type="stmt"/>
+        <line num="310" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="314" count="1" type="stmt"/>
+        <line num="323" count="1" type="stmt"/>
+        <line num="327" count="1" type="stmt"/>
+        <line num="339" count="87" type="stmt"/>
+        <line num="345" count="3" type="stmt"/>
+        <line num="362" count="3" type="stmt"/>
+        <line num="367" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="369" count="1" type="stmt"/>
+        <line num="373" count="1" type="stmt"/>
+        <line num="377" count="2" type="stmt"/>
+        <line num="381" count="2" type="stmt"/>
+      </file>
+      <file name="like.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\like.js">
+        <metrics statements="55" coveredstatements="53" conditionals="18" coveredconditionals="17" methods="9" coveredmethods="9"/>
+        <line num="20" count="87" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+        <line num="72" count="87" type="stmt"/>
+        <line num="79" count="5" type="stmt"/>
+        <line num="82" count="5" type="stmt"/>
+        <line num="85" count="5" type="stmt"/>
+        <line num="88" count="5" type="stmt"/>
+        <line num="97" count="5" type="stmt"/>
+        <line num="106" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="116" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="122" count="1" type="stmt"/>
+        <line num="131" count="3" type="stmt"/>
+        <line num="137" count="3" type="stmt"/>
+        <line num="142" count="3" type="stmt"/>
+        <line num="148" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="154" count="1" type="stmt"/>
+        <line num="159" count="2" type="stmt"/>
+        <line num="165" count="2" type="stmt"/>
+        <line num="170" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="182" count="1" type="stmt"/>
+        <line num="189" count="1" type="stmt"/>
+        <line num="195" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="197" count="0" type="stmt"/>
+        <line num="201" count="0" type="stmt"/>
+        <line num="205" count="1" type="stmt"/>
+        <line num="213" count="1" type="stmt"/>
+        <line num="215" count="1" type="stmt"/>
+        <line num="230" count="1" type="stmt"/>
+        <line num="236" count="2" type="stmt"/>
+        <line num="251" count="87" type="stmt"/>
+        <line num="258" count="3" type="stmt"/>
+        <line num="261" count="3" type="stmt"/>
+        <line num="263" count="3" type="stmt"/>
+        <line num="270" count="3" type="stmt"/>
+        <line num="279" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="281" count="1" type="stmt"/>
+        <line num="285" count="1" type="stmt"/>
+        <line num="289" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="293" count="1" type="stmt"/>
+        <line num="297" count="1" type="stmt"/>
+        <line num="306" count="1" type="stmt"/>
+        <line num="310" count="1" type="stmt"/>
+      </file>
+      <file name="message.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\message.js">
+        <metrics statements="72" coveredstatements="68" conditionals="30" coveredconditionals="27" methods="11" coveredmethods="11"/>
+        <line num="21" count="87" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="31" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="50" count="6" type="stmt"/>
+        <line num="58" count="6" type="stmt"/>
+        <line num="64" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="74" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="92" count="4" type="stmt"/>
+        <line num="96" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="104" count="4" type="stmt"/>
+        <line num="123" count="4" type="stmt"/>
+        <line num="135" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="138" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="140" count="1" type="stmt"/>
+        <line num="151" count="2" type="stmt"/>
+        <line num="161" count="2" type="stmt"/>
+        <line num="167" count="2" type="stmt"/>
+        <line num="173" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="175" count="1" type="stmt"/>
+        <line num="179" count="1" type="stmt"/>
+        <line num="184" count="1" type="stmt"/>
+        <line num="187" count="1" type="stmt"/>
+        <line num="193" count="1" type="stmt"/>
+        <line num="198" count="1" type="stmt"/>
+        <line num="199" count="1" type="stmt"/>
+        <line num="224" count="1" type="stmt"/>
+        <line num="229" count="1" type="stmt"/>
+        <line num="239" count="1" type="stmt"/>
+        <line num="245" count="1" type="stmt"/>
+        <line num="251" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="253" count="0" type="stmt"/>
+        <line num="257" count="0" type="stmt"/>
+        <line num="261" count="1" type="stmt"/>
+        <line num="269" count="1" type="stmt"/>
+        <line num="282" count="1" type="stmt"/>
+        <line num="454" count="87" type="stmt"/>
+        <line num="461" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="466" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="471" count="4" type="stmt"/>
+        <line num="473" count="4" type="stmt"/>
+        <line num="499" count="4" type="stmt"/>
+        <line num="509" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="511" count="1" type="stmt"/>
+        <line num="515" count="1" type="stmt"/>
+        <line num="519" count="3" type="stmt"/>
+        <line num="523" count="3" type="stmt"/>
+        <line num="545" count="87" type="stmt"/>
+        <line num="552" count="3" type="stmt"/>
+        <line num="554" count="3" type="stmt"/>
+        <line num="563" count="3" type="stmt"/>
+        <line num="569" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="571" count="1" type="stmt"/>
+        <line num="575" count="1" type="stmt"/>
+        <line num="579" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="583" count="1" type="stmt"/>
+        <line num="592" count="1" type="stmt"/>
+        <line num="596" count="1" type="stmt"/>
+        <line num="608" count="87" type="stmt"/>
+        <line num="614" count="2" type="stmt"/>
+        <line num="624" count="2" type="stmt"/>
+        <line num="630" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="632" count="1" type="stmt"/>
+        <line num="636" count="1" type="stmt"/>
+        <line num="640" count="1" type="stmt"/>
+        <line num="644" count="1" type="stmt"/>
+      </file>
+      <file name="notification.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\notification.js">
+        <metrics statements="73" coveredstatements="73" conditionals="22" coveredconditionals="22" methods="14" coveredmethods="14"/>
+        <line num="10" count="87" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="68" count="3" type="stmt"/>
+        <line num="78" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="114" count="87" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="124" count="3" type="stmt"/>
+        <line num="126" count="3" type="stmt"/>
+        <line num="136" count="3" type="stmt"/>
+        <line num="145" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="147" count="1" type="stmt"/>
+        <line num="151" count="1" type="stmt"/>
+        <line num="155" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="159" count="1" type="stmt"/>
+        <line num="163" count="1" type="stmt"/>
+        <line num="172" count="1" type="stmt"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="188" count="87" type="stmt"/>
+        <line num="195" count="3" type="stmt"/>
+        <line num="197" count="3" type="stmt"/>
+        <line num="205" count="3" type="stmt"/>
+        <line num="211" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="213" count="1" type="stmt"/>
+        <line num="217" count="1" type="stmt"/>
+        <line num="221" count="2" type="stmt"/>
+        <line num="225" count="2" type="stmt"/>
+        <line num="243" count="87" type="stmt"/>
+        <line num="250" count="2" type="stmt"/>
+        <line num="252" count="2" type="stmt"/>
+        <line num="264" count="2" type="stmt"/>
+        <line num="270" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="272" count="1" type="stmt"/>
+        <line num="276" count="1" type="stmt"/>
+        <line num="280" count="1" type="stmt"/>
+        <line num="284" count="1" type="stmt"/>
+        <line num="299" count="87" type="stmt"/>
+        <line num="306" count="3" type="stmt"/>
+        <line num="309" count="3" type="stmt"/>
+        <line num="311" count="3" type="stmt"/>
+        <line num="319" count="3" type="stmt"/>
+        <line num="328" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="330" count="1" type="stmt"/>
+        <line num="334" count="1" type="stmt"/>
+        <line num="338" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="342" count="1" type="stmt"/>
+        <line num="351" count="1" type="stmt"/>
+        <line num="355" count="1" type="stmt"/>
+        <line num="367" count="87" type="stmt"/>
+        <line num="374" count="3" type="stmt"/>
+        <line num="376" count="3" type="stmt"/>
+        <line num="382" count="3" type="stmt"/>
+        <line num="388" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="390" count="1" type="stmt"/>
+        <line num="394" count="1" type="stmt"/>
+        <line num="398" count="2" type="stmt"/>
+        <line num="402" count="2" type="stmt"/>
+        <line num="420" count="87" type="stmt"/>
+        <line num="427" count="2" type="stmt"/>
+        <line num="429" count="2" type="stmt"/>
+        <line num="464" count="2" type="stmt"/>
+        <line num="470" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="472" count="1" type="stmt"/>
+        <line num="476" count="1" type="stmt"/>
+        <line num="480" count="1" type="stmt"/>
+        <line num="484" count="1" type="stmt"/>
+      </file>
+      <file name="post.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\post.js">
+        <metrics statements="102" coveredstatements="83" conditionals="42" coveredconditionals="34" methods="17" coveredmethods="14"/>
+        <line num="19" count="87" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="33" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="45" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="78" count="3" type="stmt"/>
+        <line num="127" count="3" type="stmt"/>
+        <line num="140" count="3" type="stmt"/>
+        <line num="146" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="148" count="1" type="stmt"/>
+        <line num="152" count="1" type="stmt"/>
+        <line num="156" count="2" type="stmt"/>
+        <line num="160" count="2" type="stmt"/>
+        <line num="178" count="87" type="stmt"/>
+        <line num="185" count="3" type="stmt"/>
+        <line num="187" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="192" count="1" type="stmt"/>
+        <line num="196" count="1" type="stmt"/>
+        <line num="205" count="2" type="stmt"/>
+        <line num="211" count="2" type="stmt"/>
+        <line num="223" count="2" type="stmt"/>
+        <line num="229" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="231" count="1" type="stmt"/>
+        <line num="235" count="1" type="stmt"/>
+        <line num="239" count="1" type="stmt"/>
+        <line num="243" count="1" type="stmt"/>
+        <line num="249" count="1" type="stmt"/>
+        <line num="255" count="1" type="stmt"/>
+        <line num="259" count="1" type="stmt"/>
+        <line num="262" count="0" type="stmt"/>
+        <line num="268" count="0" type="stmt"/>
+        <line num="274" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="276" count="0" type="stmt"/>
+        <line num="280" count="0" type="stmt"/>
+        <line num="285" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="289" count="0" type="stmt"/>
+        <line num="294" count="0" type="stmt"/>
+        <line num="300" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="302" count="0" type="stmt"/>
+        <line num="306" count="0" type="stmt"/>
+        <line num="311" count="0" type="stmt"/>
+        <line num="313" count="0" type="stmt"/>
+        <line num="325" count="0" type="stmt"/>
+        <line num="338" count="0" type="stmt"/>
+        <line num="340" count="0" type="stmt"/>
+        <line num="352" count="0" type="stmt"/>
+        <line num="365" count="1" type="stmt"/>
+        <line num="377" count="87" type="stmt"/>
+        <line num="384" count="3" type="stmt"/>
+        <line num="386" count="3" type="stmt"/>
+        <line num="392" count="3" type="stmt"/>
+        <line num="401" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="403" count="1" type="stmt"/>
+        <line num="407" count="1" type="stmt"/>
+        <line num="411" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="415" count="1" type="stmt"/>
+        <line num="419" count="1" type="stmt"/>
+        <line num="427" count="1" type="stmt"/>
+        <line num="431" count="1" type="stmt"/>
+        <line num="443" count="87" type="stmt"/>
+        <line num="451" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="454" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="457" count="3" type="stmt"/>
+        <line num="459" count="3" type="stmt"/>
+        <line num="509" count="3" type="stmt"/>
+        <line num="523" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="525" count="1" type="stmt"/>
+        <line num="529" count="1" type="stmt"/>
+        <line num="533" count="2" type="stmt"/>
+        <line num="537" count="2" type="stmt"/>
+        <line num="555" count="87" type="stmt"/>
+        <line num="562" count="3" type="stmt"/>
+        <line num="564" count="3" type="stmt"/>
+        <line num="609" count="3" type="stmt"/>
+        <line num="620" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="622" count="1" type="stmt"/>
+        <line num="626" count="1" type="stmt"/>
+        <line num="630" count="2" type="stmt"/>
+        <line num="634" count="2" type="stmt"/>
+        <line num="644" count="87" type="stmt"/>
+        <line num="650" count="3" type="stmt"/>
+        <line num="669" count="3" type="stmt"/>
+        <line num="674" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="676" count="1" type="stmt"/>
+        <line num="680" count="1" type="stmt"/>
+        <line num="684" count="2" type="stmt"/>
+        <line num="688" count="2" type="stmt"/>
+        <line num="698" count="87" type="stmt"/>
+        <line num="706" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="709" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="712" count="3" type="stmt"/>
+        <line num="714" count="3" type="stmt"/>
+        <line num="767" count="3" type="stmt"/>
+        <line num="779" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="781" count="1" type="stmt"/>
+        <line num="785" count="1" type="stmt"/>
+        <line num="789" count="2" type="stmt"/>
+        <line num="793" count="2" type="stmt"/>
+      </file>
+      <file name="relationship.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\relationship.js">
+        <metrics statements="66" coveredstatements="60" conditionals="22" coveredconditionals="18" methods="12" coveredmethods="12"/>
+        <line num="19" count="87" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="71" count="87" type="stmt"/>
+        <line num="78" count="5" type="stmt"/>
+        <line num="81" count="5" type="stmt"/>
+        <line num="84" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="102" count="4" type="stmt"/>
+        <line num="123" count="4" type="stmt"/>
+        <line num="135" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="138" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="142" count="1" type="stmt"/>
+        <line num="152" count="2" type="stmt"/>
+        <line num="166" count="2" type="stmt"/>
+        <line num="175" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="178" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="182" count="1" type="stmt"/>
+        <line num="191" count="1" type="stmt"/>
+        <line num="200" count="1" type="stmt"/>
+        <line num="209" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="210" count="0" type="stmt"/>
+        <line num="213" count="1" type="stmt"/>
+        <line num="220" count="1" type="stmt"/>
+        <line num="230" count="1" type="stmt"/>
+        <line num="240" count="1" type="stmt"/>
+        <line num="241" count="1" type="stmt"/>
+        <line num="254" count="1" type="stmt"/>
+        <line num="258" count="1" type="stmt"/>
+        <line num="535" count="87" type="stmt"/>
+        <line num="542" count="1" type="stmt"/>
+        <line num="545" count="1" type="stmt"/>
+        <line num="547" count="1" type="stmt"/>
+        <line num="555" count="1" type="stmt"/>
+        <line num="564" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="566" count="0" type="stmt"/>
+        <line num="570" count="0" type="stmt"/>
+        <line num="574" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="578" count="0" type="stmt"/>
+        <line num="582" count="0" type="stmt"/>
+        <line num="591" count="1" type="stmt"/>
+        <line num="595" count="1" type="stmt"/>
+        <line num="607" count="87" type="stmt"/>
+        <line num="614" count="3" type="stmt"/>
+        <line num="616" count="3" type="stmt"/>
+        <line num="624" count="3" type="stmt"/>
+        <line num="632" count="3" type="stmt"/>
+        <line num="638" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="640" count="1" type="stmt"/>
+        <line num="644" count="1" type="stmt"/>
+        <line num="648" count="2" type="stmt"/>
+        <line num="654" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="656" count="1" type="stmt"/>
+        <line num="660" count="1" type="stmt"/>
+        <line num="664" count="1" type="stmt"/>
+        <line num="668" count="1" type="stmt"/>
+      </file>
+      <file name="report.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\report.js">
+        <metrics statements="39" coveredstatements="39" conditionals="17" coveredconditionals="17" methods="8" coveredmethods="8"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="66" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="85" count="87" type="stmt"/>
+        <line num="91" count="3" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="105" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="108" count="2" type="stmt"/>
+        <line num="118" count="87" type="stmt"/>
+        <line num="125" count="3" type="stmt"/>
+        <line num="127" count="3" type="stmt"/>
+        <line num="141" count="3" type="stmt"/>
+        <line num="150" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="151" count="1" type="stmt"/>
+        <line num="153" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="157" count="1" type="stmt"/>
+        <line num="166" count="1" type="stmt"/>
+        <line num="174" count="1" type="stmt"/>
+        <line num="178" count="1" type="stmt"/>
+        <line num="190" count="87" type="stmt"/>
+        <line num="197" count="3" type="stmt"/>
+        <line num="199" count="3" type="stmt"/>
+        <line num="213" count="3" type="stmt"/>
+        <line num="222" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="223" count="1" type="stmt"/>
+        <line num="225" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="229" count="1" type="stmt"/>
+        <line num="238" count="1" type="stmt"/>
+        <line num="246" count="1" type="stmt"/>
+        <line num="250" count="1" type="stmt"/>
+      </file>
+      <file name="saved.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\saved.js">
+        <metrics statements="62" coveredstatements="60" conditionals="22" coveredconditionals="21" methods="11" coveredmethods="11"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="26" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="57" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="67" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="100" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="111" count="1" type="stmt"/>
+        <line num="117" count="1" type="stmt"/>
+        <line num="121" count="1" type="stmt"/>
+        <line num="142" count="87" type="stmt"/>
+        <line num="149" count="3" type="stmt"/>
+        <line num="152" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="157" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="162" count="3" type="stmt"/>
+        <line num="164" count="3" type="stmt"/>
+        <line num="198" count="3" type="stmt"/>
+        <line num="208" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="210" count="1" type="stmt"/>
+        <line num="214" count="1" type="stmt"/>
+        <line num="218" count="2" type="stmt"/>
+        <line num="222" count="2" type="stmt"/>
+        <line num="244" count="87" type="stmt"/>
+        <line num="251" count="3" type="stmt"/>
+        <line num="254" count="3" type="stmt"/>
+        <line num="256" count="3" type="stmt"/>
+        <line num="264" count="3" type="stmt"/>
+        <line num="273" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="275" count="1" type="stmt"/>
+        <line num="279" count="1" type="stmt"/>
+        <line num="283" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="287" count="1" type="stmt"/>
+        <line num="296" count="1" type="stmt"/>
+        <line num="300" count="1" type="stmt"/>
+        <line num="312" count="87" type="stmt"/>
+        <line num="319" count="3" type="stmt"/>
+        <line num="322" count="3" type="stmt"/>
+        <line num="324" count="3" type="stmt"/>
+        <line num="334" count="3" type="stmt"/>
+        <line num="343" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="345" count="1" type="stmt"/>
+        <line num="349" count="1" type="stmt"/>
+        <line num="353" count="2" type="stmt"/>
+        <line num="368" count="87" type="stmt"/>
+        <line num="375" count="2" type="stmt"/>
+        <line num="377" count="2" type="stmt"/>
+        <line num="386" count="2" type="stmt"/>
+        <line num="392" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="394" count="1" type="stmt"/>
+        <line num="398" count="1" type="stmt"/>
+        <line num="402" count="1" type="stmt"/>
+      </file>
+      <file name="search.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\search.js">
+        <metrics statements="62" coveredstatements="61" conditionals="24" coveredconditionals="23" methods="10" coveredmethods="10"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="133" count="2" type="stmt"/>
+        <line num="146" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="148" count="1" type="stmt"/>
+        <line num="152" count="1" type="stmt"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="158" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="160" count="1" type="stmt"/>
+        <line num="170" count="0" type="stmt"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="180" count="1" type="stmt"/>
+        <line num="204" count="87" type="stmt"/>
+        <line num="211" count="3" type="stmt"/>
+        <line num="213" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="215" count="1" type="stmt"/>
+        <line num="224" count="2" type="stmt"/>
+        <line num="249" count="2" type="stmt"/>
+        <line num="251" count="2" type="stmt"/>
+        <line num="260" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="262" count="1" type="stmt"/>
+        <line num="266" count="1" type="stmt"/>
+        <line num="270" count="1" type="stmt"/>
+        <line num="274" count="1" type="stmt"/>
+        <line num="284" count="87" type="stmt"/>
+        <line num="291" count="3" type="stmt"/>
+        <line num="293" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="295" count="1" type="stmt"/>
+        <line num="304" count="2" type="stmt"/>
+        <line num="329" count="2" type="stmt"/>
+        <line num="335" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="337" count="1" type="stmt"/>
+        <line num="341" count="1" type="stmt"/>
+        <line num="345" count="1" type="stmt"/>
+        <line num="349" count="1" type="stmt"/>
+        <line num="359" count="87" type="stmt"/>
+        <line num="366" count="3" type="stmt"/>
+        <line num="368" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="370" count="1" type="stmt"/>
+        <line num="379" count="2" type="stmt"/>
+        <line num="406" count="2" type="stmt"/>
+        <line num="412" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="414" count="1" type="stmt"/>
+        <line num="418" count="1" type="stmt"/>
+        <line num="422" count="1" type="stmt"/>
+        <line num="426" count="1" type="stmt"/>
+        <line num="436" count="87" type="stmt"/>
+        <line num="442" count="2" type="stmt"/>
+        <line num="462" count="2" type="stmt"/>
+        <line num="467" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="469" count="1" type="stmt"/>
+        <line num="473" count="1" type="stmt"/>
+        <line num="477" count="1" type="stmt"/>
+        <line num="481" count="1" type="stmt"/>
+      </file>
+      <file name="story.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\story.js">
+        <metrics statements="53" coveredstatements="53" conditionals="14" coveredconditionals="14" methods="10" coveredmethods="10"/>
+        <line num="16" count="87" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="70" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="94" count="87" type="stmt"/>
+        <line num="101" count="3" type="stmt"/>
+        <line num="103" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="118" count="2" type="stmt"/>
+        <line num="128" count="2" type="stmt"/>
+        <line num="138" count="2" type="stmt"/>
+        <line num="144" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="146" count="1" type="stmt"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="161" count="1" type="stmt"/>
+        <line num="165" count="1" type="stmt"/>
+        <line num="183" count="87" type="stmt"/>
+        <line num="190" count="3" type="stmt"/>
+        <line num="193" count="3" type="stmt"/>
+        <line num="195" count="3" type="stmt"/>
+        <line num="203" count="3" type="stmt"/>
+        <line num="212" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="214" count="1" type="stmt"/>
+        <line num="218" count="1" type="stmt"/>
+        <line num="222" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="226" count="1" type="stmt"/>
+        <line num="230" count="1" type="stmt"/>
+        <line num="239" count="1" type="stmt"/>
+        <line num="243" count="1" type="stmt"/>
+        <line num="255" count="87" type="stmt"/>
+        <line num="262" count="3" type="stmt"/>
+        <line num="264" count="3" type="stmt"/>
+        <line num="282" count="3" type="stmt"/>
+        <line num="288" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="290" count="1" type="stmt"/>
+        <line num="294" count="1" type="stmt"/>
+        <line num="298" count="2" type="stmt"/>
+        <line num="302" count="2" type="stmt"/>
+        <line num="312" count="87" type="stmt"/>
+        <line num="318" count="3" type="stmt"/>
+        <line num="341" count="3" type="stmt"/>
+        <line num="346" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="348" count="1" type="stmt"/>
+        <line num="352" count="1" type="stmt"/>
+        <line num="356" count="2" type="stmt"/>
+        <line num="360" count="2" type="stmt"/>
+      </file>
+      <file name="user.js" path="C:\Users\ACER\Desktop\Thrills\api\controllers\user.js">
+        <metrics statements="65" coveredstatements="49" conditionals="18" coveredconditionals="10" methods="10" coveredmethods="10"/>
+        <line num="21" count="87" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="74" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="84" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="143" count="87" type="stmt"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="152" count="1" type="stmt"/>
+        <line num="165" count="1" type="stmt"/>
+        <line num="178" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="188" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="192" count="0" type="stmt"/>
+        <line num="196" count="0" type="stmt"/>
+        <line num="205" count="1" type="stmt"/>
+        <line num="209" count="1" type="stmt"/>
+        <line num="215" count="1" type="stmt"/>
+        <line num="219" count="1" type="stmt"/>
+        <line num="229" count="87" type="stmt"/>
+        <line num="236" count="3" type="stmt"/>
+        <line num="239" count="3" type="stmt"/>
+        <line num="241" count="3" type="stmt"/>
+        <line num="283" count="3" type="stmt"/>
+        <line num="301" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="303" count="1" type="stmt"/>
+        <line num="307" count="1" type="stmt"/>
+        <line num="311" count="2" type="stmt"/>
+        <line num="315" count="2" type="stmt"/>
+        <line num="325" count="87" type="stmt"/>
+        <line num="332" count="1" type="stmt"/>
+        <line num="335" count="1" type="stmt"/>
+        <line num="337" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="339" count="0" type="stmt"/>
+        <line num="343" count="0" type="stmt"/>
+        <line num="352" count="1" type="stmt"/>
+        <line num="392" count="1" type="stmt"/>
+        <line num="401" count="1" type="stmt"/>
+        <line num="407" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="409" count="0" type="stmt"/>
+        <line num="413" count="0" type="stmt"/>
+        <line num="417" count="1" type="stmt"/>
+        <line num="421" count="1" type="stmt"/>
+        <line num="431" count="87" type="stmt"/>
+        <line num="438" count="1" type="stmt"/>
+        <line num="440" count="1" type="stmt"/>
+        <line num="450" count="1" type="stmt"/>
+        <line num="456" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="458" count="0" type="stmt"/>
+        <line num="462" count="0" type="stmt"/>
+        <line num="466" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="468" count="0" type="stmt"/>
+        <line num="472" count="0" type="stmt"/>
+        <line num="482" count="1" type="stmt"/>
+        <line num="490" count="1" type="stmt"/>
+        <line num="494" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="api.middleware">
+      <metrics statements="56" coveredstatements="49" conditionals="16" coveredconditionals="13" methods="11" coveredmethods="8"/>
+      <file name="adminMiddleware.js" path="C:\Users\ACER\Desktop\Thrills\api\middleware\adminMiddleware.js">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="authMiddleware.js" path="C:\Users\ACER\Desktop\Thrills\api\middleware\authMiddleware.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="9" count="88" type="stmt"/>
+        <line num="16" count="173" type="stmt"/>
+        <line num="18" count="173" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="33" count="172" type="stmt"/>
+        <line num="39" count="172" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="54" count="171" type="stmt"/>
+        <line num="57" count="171" type="stmt"/>
+      </file>
+      <file name="errorHandler.js" path="C:\Users\ACER\Desktop\Thrills\api\middleware\errorHandler.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="4" count="88" type="stmt"/>
+        <line num="12" count="128" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="128" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="128" type="stmt"/>
+        <line num="38" count="128" type="stmt"/>
+      </file>
+      <file name="rateLimiter.js" path="C:\Users\ACER\Desktop\Thrills\api\middleware\rateLimiter.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="87" type="stmt"/>
+        <line num="20" count="87" type="stmt"/>
+        <line num="35" count="87" type="stmt"/>
+        <line num="50" count="87" type="stmt"/>
+        <line num="62" count="87" type="stmt"/>
+        <line num="74" count="87" type="stmt"/>
+      </file>
+      <file name="requestLogger.js" path="C:\Users\ACER\Desktop\Thrills\api\middleware\requestLogger.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="87" type="stmt"/>
+        <line num="10" count="247" type="stmt"/>
+        <line num="14" count="247" type="stmt"/>
+      </file>
+      <file name="roleMiddleware.js" path="C:\Users\ACER\Desktop\Thrills\api\middleware\roleMiddleware.js">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="5" count="87" type="stmt"/>
+        <line num="6" count="870" type="stmt"/>
+        <line num="8" count="30" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="23" count="30" type="stmt"/>
+      </file>
+      <file name="upload.js" path="C:\Users\ACER\Desktop\Thrills\api\middleware\upload.js">
+        <metrics statements="9" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="5" count="87" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="41" count="87" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="85" count="87" type="stmt"/>
+      </file>
+      <file name="validation.js" path="C:\Users\ACER\Desktop\Thrills\api\middleware\validation.js">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="6" count="88" type="stmt"/>
+        <line num="13" count="25" type="stmt"/>
+        <line num="15" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="26" count="17" type="stmt"/>
+        <line num="31" count="88" type="stmt"/>
+        <line num="104" count="88" type="stmt"/>
+        <line num="121" count="88" type="stmt"/>
+        <line num="153" count="88" type="stmt"/>
+        <line num="192" count="88" type="stmt"/>
+        <line num="210" count="88" type="stmt"/>
+        <line num="221" count="88" type="stmt"/>
+        <line num="234" count="88" type="stmt"/>
+      </file>
+    </package>
+    <package name="api.routes">
+      <metrics statements="111" coveredstatements="110" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="admin.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\admin.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="27" count="87" type="stmt"/>
+        <line num="29" count="87" type="stmt"/>
+        <line num="42" count="87" type="stmt"/>
+        <line num="55" count="87" type="stmt"/>
+        <line num="68" count="87" type="stmt"/>
+        <line num="81" count="87" type="stmt"/>
+        <line num="95" count="87" type="stmt"/>
+      </file>
+      <file name="analytics.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\analytics.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="10" count="87" type="stmt"/>
+        <line num="12" count="87" type="stmt"/>
+        <line num="17" count="87" type="stmt"/>
+        <line num="22" count="87" type="stmt"/>
+      </file>
+      <file name="audit.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\audit.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="17" count="87" type="stmt"/>
+        <line num="19" count="87" type="stmt"/>
+      </file>
+      <file name="auth.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\auth.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="20" count="87" type="stmt"/>
+        <line num="23" count="87" type="stmt"/>
+        <line num="32" count="87" type="stmt"/>
+        <line num="41" count="87" type="stmt"/>
+        <line num="47" count="87" type="stmt"/>
+      </file>
+      <file name="block.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\block.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="19" count="87" type="stmt"/>
+        <line num="21" count="87" type="stmt"/>
+        <line num="27" count="87" type="stmt"/>
+        <line num="33" count="87" type="stmt"/>
+      </file>
+      <file name="comments.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\comments.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="10" count="87" type="stmt"/>
+        <line num="12" count="87" type="stmt"/>
+        <line num="13" count="87" type="stmt"/>
+        <line num="15" count="87" type="stmt"/>
+      </file>
+      <file name="conversations.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\conversations.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="13" count="87" type="stmt"/>
+        <line num="16" count="87" type="stmt"/>
+        <line num="23" count="87" type="stmt"/>
+        <line num="29" count="87" type="stmt"/>
+        <line num="36" count="87" type="stmt"/>
+        <line num="42" count="87" type="stmt"/>
+      </file>
+      <file name="discover.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\discover.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="87" type="stmt"/>
+        <line num="7" count="87" type="stmt"/>
+        <line num="12" count="87" type="stmt"/>
+        <line num="18" count="87" type="stmt"/>
+        <line num="23" count="87" type="stmt"/>
+        <line num="28" count="87" type="stmt"/>
+      </file>
+      <file name="hashtags.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\hashtags.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="13" count="87" type="stmt"/>
+        <line num="15" count="87" type="stmt"/>
+        <line num="20" count="87" type="stmt"/>
+        <line num="25" count="87" type="stmt"/>
+        <line num="31" count="87" type="stmt"/>
+      </file>
+      <file name="interests.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\interests.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="16" count="87" type="stmt"/>
+        <line num="22" count="87" type="stmt"/>
+        <line num="27" count="87" type="stmt"/>
+        <line num="32" count="87" type="stmt"/>
+        <line num="38" count="87" type="stmt"/>
+      </file>
+      <file name="likes.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\likes.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="87" type="stmt"/>
+        <line num="8" count="87" type="stmt"/>
+        <line num="9" count="87" type="stmt"/>
+        <line num="10" count="87" type="stmt"/>
+      </file>
+      <file name="messages.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\messages.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="19" count="87" type="stmt"/>
+        <line num="22" count="87" type="stmt"/>
+        <line num="25" count="87" type="stmt"/>
+        <line num="31" count="87" type="stmt"/>
+        <line num="37" count="87" type="stmt"/>
+      </file>
+      <file name="notifications.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\notifications.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="15" count="87" type="stmt"/>
+        <line num="18" count="87" type="stmt"/>
+        <line num="21" count="87" type="stmt"/>
+        <line num="28" count="87" type="stmt"/>
+        <line num="35" count="87" type="stmt"/>
+        <line num="41" count="87" type="stmt"/>
+        <line num="47" count="87" type="stmt"/>
+        <line num="53" count="87" type="stmt"/>
+      </file>
+      <file name="posts.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\posts.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="19" count="87" type="stmt"/>
+        <line num="21" count="87" type="stmt"/>
+        <line num="23" count="87" type="stmt"/>
+        <line num="25" count="87" type="stmt"/>
+        <line num="27" count="87" type="stmt"/>
+        <line num="29" count="87" type="stmt"/>
+        <line num="31" count="87" type="stmt"/>
+        <line num="33" count="87" type="stmt"/>
+      </file>
+      <file name="relationships.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\relationships.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="87" type="stmt"/>
+        <line num="7" count="87" type="stmt"/>
+        <line num="8" count="87" type="stmt"/>
+        <line num="9" count="87" type="stmt"/>
+        <line num="10" count="87" type="stmt"/>
+      </file>
+      <file name="reports.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\reports.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="25" count="87" type="stmt"/>
+        <line num="27" count="87" type="stmt"/>
+        <line num="35" count="87" type="stmt"/>
+        <line num="49" count="87" type="stmt"/>
+        <line num="63" count="87" type="stmt"/>
+      </file>
+      <file name="saved.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\saved.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="14" count="87" type="stmt"/>
+        <line num="16" count="87" type="stmt"/>
+        <line num="22" count="87" type="stmt"/>
+        <line num="28" count="87" type="stmt"/>
+        <line num="34" count="87" type="stmt"/>
+        <line num="40" count="87" type="stmt"/>
+      </file>
+      <file name="search.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\search.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="16" count="87" type="stmt"/>
+        <line num="18" count="87" type="stmt"/>
+        <line num="25" count="87" type="stmt"/>
+        <line num="30" count="87" type="stmt"/>
+        <line num="35" count="87" type="stmt"/>
+        <line num="40" count="87" type="stmt"/>
+      </file>
+      <file name="stories.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\stories.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="87" type="stmt"/>
+        <line num="7" count="87" type="stmt"/>
+        <line num="8" count="87" type="stmt"/>
+        <line num="9" count="87" type="stmt"/>
+        <line num="13" count="87" type="stmt"/>
+        <line num="17" count="87" type="stmt"/>
+      </file>
+      <file name="upload.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\upload.js">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="13" count="87" type="stmt"/>
+        <line num="15" count="87" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+      <file name="users.js" path="C:\Users\ACER\Desktop\Thrills\api\routes\users.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="13" count="87" type="stmt"/>
+        <line num="16" count="87" type="stmt"/>
+        <line num="23" count="87" type="stmt"/>
+        <line num="30" count="87" type="stmt"/>
+        <line num="36" count="87" type="stmt"/>
+        <line num="43" count="87" type="stmt"/>
+      </file>
+    </package>
+    <package name="api.sockets">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="socketInstance.js" path="C:\Users\ACER\Desktop\Thrills\api\sockets\socketInstance.js">
+        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="83" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="11" count="83" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="api.utils">
+      <metrics statements="24" coveredstatements="22" conditionals="9" coveredconditionals="7" methods="8" coveredmethods="7"/>
+      <file name="ApiError.js" path="C:\Users\ACER\Desktop\Thrills\api\utils\ApiError.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="54" type="stmt"/>
+        <line num="7" count="54" type="stmt"/>
+        <line num="9" count="54" type="stmt"/>
+      </file>
+      <file name="activityLogger.js" path="C:\Users\ACER\Desktop\Thrills\api\utils\activityLogger.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="4" count="74" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="auditLogger.js" path="C:\Users\ACER\Desktop\Thrills\api\utils\auditLogger.js">
+        <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="7" count="83" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="45" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+      </file>
+      <file name="cloudinary.js" path="C:\Users\ACER\Desktop\Thrills\api\utils\cloudinary.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="87" type="stmt"/>
+      </file>
+      <file name="extractHashtags.js" path="C:\Users\ACER\Desktop\Thrills\api\utils\extractHashtags.js">
+        <metrics statements="5" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="1" count="87" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="logger.js" path="C:\Users\ACER\Desktop\Thrills\api\utils\logger.js">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="4" count="91" type="stmt"/>
+        <line num="25" count="572" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="onlineUsers.js" path="C:\Users\ACER\Desktop\Thrills\api\utils\onlineUsers.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="86" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
