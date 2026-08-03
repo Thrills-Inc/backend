@@ -1,80 +1,46 @@
 import winston from "winston";
 
-const logger =
-  winston.createLogger({
+// Detect if running on Vercel or production serverless environment
+const isServerless =
+  process.env.VERCEL === "1" || process.env.NODE_ENV === "production";
 
-    level: "info",
+// Always output to Console (Vercel automatically captures standard console logs)
+const transports = [new winston.transports.Console()];
 
-    format:
-      winston.format.combine(
+// Only enable File logging when running LOCALLY to prevent serverless mkdirSync crashes
+if (!isServerless) {
+  transports.push(
+    new winston.transports.File({
+      filename: "logs/error.log",
+      level: "error",
+    }),
+    new winston.transports.File({
+      filename: "logs/combined.log",
+    })
+  );
+}
 
-        winston.format.timestamp(),
+const logger = winston.createLogger({
+  level: "info",
 
-        winston.format.errors({
-          stack: true,
-        }),
+  format: winston.format.combine(
+    winston.format.timestamp(),
 
-        winston.format.printf(
-          ({
-            timestamp,
-            level,
-            message,
-            stack,
-          }) => {
+    winston.format.errors({
+      stack: true,
+    }),
 
-            return stack
+    winston.format.printf(({ timestamp, level, message, stack }) => {
+      return stack
+        ? `${timestamp} [${level.toUpperCase()}] ${message}\n${stack}`
+        : `${timestamp} [${level.toUpperCase()}] ${message}`;
+    })
+  ),
 
-              ? `${timestamp} [${level.toUpperCase()}] ${message}\n${stack}`
-
-              : `${timestamp} [${level.toUpperCase()}] ${message}`;
-
-          }
-        )
-
-      ),
-
-    transports: [
-
-      new winston.transports.Console(),
-
-      new winston.transports.File({
-        filename:
-          "logs/error.log",
-
-        level:
-          "error",
-      }),
-
-      new winston.transports.File({
-        filename:
-          "logs/combined.log",
-      }),
-
-    ],
-
-  });
+  transports: transports,
+});
 
 export default logger;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -98,17 +64,27 @@ export default logger;
 
 //         winston.format.timestamp(),
 
+//         winston.format.errors({
+//           stack: true,
+//         }),
+
 //         winston.format.printf(
 //           ({
+//             timestamp,
 //             level,
 //             message,
-//             timestamp,
+//             stack,
 //           }) => {
 
-//             return `${timestamp} [${level.toUpperCase()}]: ${message}`;
+//             return stack
+
+//               ? `${timestamp} [${level.toUpperCase()}] ${message}\n${stack}`
+
+//               : `${timestamp} [${level.toUpperCase()}] ${message}`;
 
 //           }
 //         )
+
 //       ),
 
 //     transports: [
@@ -116,12 +92,16 @@ export default logger;
 //       new winston.transports.Console(),
 
 //       new winston.transports.File({
-//         filename: "logs/error.log",
-//         level: "error",
+//         filename:
+//           "logs/error.log",
+
+//         level:
+//           "error",
 //       }),
 
 //       new winston.transports.File({
-//         filename: "logs/combined.log",
+//         filename:
+//           "logs/combined.log",
 //       }),
 
 //     ],
@@ -129,3 +109,77 @@ export default logger;
 //   });
 
 // export default logger;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // import winston from "winston";
+
+// // const logger =
+// //   winston.createLogger({
+
+// //     level: "info",
+
+// //     format:
+// //       winston.format.combine(
+
+// //         winston.format.timestamp(),
+
+// //         winston.format.printf(
+// //           ({
+// //             level,
+// //             message,
+// //             timestamp,
+// //           }) => {
+
+// //             return `${timestamp} [${level.toUpperCase()}]: ${message}`;
+
+// //           }
+// //         )
+// //       ),
+
+// //     transports: [
+
+// //       new winston.transports.Console(),
+
+// //       new winston.transports.File({
+// //         filename: "logs/error.log",
+// //         level: "error",
+// //       }),
+
+// //       new winston.transports.File({
+// //         filename: "logs/combined.log",
+// //       }),
+
+// //     ],
+
+// //   });
+
+// // export default logger;
